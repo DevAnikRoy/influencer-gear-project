@@ -161,7 +161,28 @@ body {
     margin-top: 10px;
     margin-bottom: 0px;
 }
-
+/* featured product style */
+.featured-product-container{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-top: 100px;
+}
+.featured-product-btn{
+    background-color: #E02C6D;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    padding: 10px 24px;
+    gap: 10px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+.featured-product-text p{
+    text-align-last: auto;
+}
 
 
 
